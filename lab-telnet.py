@@ -2,7 +2,7 @@ import pexpect
 
 host="36.37.255.1"
 username = "thangvq1"
-password = "Abcd@1234"
+password = "********"
 command1 = "show interface description | no-more | match ae"
 command2 = "show interface ae0 | no-more"
 session = pexpect.spawn("telnet "+format(host)+" -l "+username, timeout=20)
