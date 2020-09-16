@@ -1,5 +1,6 @@
-def cong2so(a=1,b=0):
-    print "A "+format(a)
-    print "B "+format(b)
-    print(a + b)
-cong2so(b=4,a=2)
+def chia2so(sobichia,sochia):
+    if ((sochia == 0) and (sobichia != 0)):
+        print("Khong the chia cho 0")
+    else:
+        print("Ket qua: " + format(sobichia/sochia))
+chia2so(10,5)
