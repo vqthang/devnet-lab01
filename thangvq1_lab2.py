@@ -6,7 +6,7 @@ def FindRouter(rlist,name):
                 print('Name :' + router['Name'])
                 print('IP :' + router['IP'])
                 print('OS :' + router['OS'])
-            #break
+                break
         #print('------------------------')
         #break
 FindRouter(router_list,"R2")
