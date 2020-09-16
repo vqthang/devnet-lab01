@@ -5,4 +5,4 @@ def chia2so(sobichia,sochia):
         print("So bi chia: " + format(sobichia))
         print ("So chia: " + format(sochia))
         print("Ket qua: " + format(sobichia/sochia))
-chia2so(0,0)
+chia2so(100,5)
