@@ -1,8 +1,11 @@
 def chia2so(sobichia,sochia):
-    if (sochia == 0):
-        print("Khong the chia cho 0")
+    if type(sobichia) == int and type(sochia) == int:
+        if (sochia == 0):
+            print("Khong the chia cho 0.")
+        else:
+            print("So bi chia: " + format(sobichia))
+            print ("So chia: " + format(sochia))
+            print("Ket qua: " + format(sobichia/sochia))
     else:
-        print("So bi chia: " + format(sobichia))
-        print ("So chia: " + format(sochia))
-        print("Ket qua: " + format(sobichia/sochia))
-chia2so(100,5)
+        print("Sai dau vao.")
+chia2so("10",5)
